@@ -22,7 +22,7 @@ This project is a **Production Planning System** that allows companies to manage
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/production-planning.git
+   git clone https://github.com/kadircanisbilen/production-planning.git
    cd production-planning
    ```
 2. Start the application with Docker Compose:
