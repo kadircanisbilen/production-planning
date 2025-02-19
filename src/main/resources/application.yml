@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/production_planning
+    username: admin
+    password: admin
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+
+  sql:
+    init:
+      mode: always
+      schema-locations: classpath:init.sql
+      data-locations: classpath:data.sql
+springdoc:
+  api-docs:
+    enabled: true
+  packages-to-scan: com.production.planning.controller
